@@ -2,11 +2,11 @@ import requests
 import discode
 import os
 
-channel_access_token = "bUZFu/tDYvZ14XTW3+BrGxzue4LuTNxxOs57HkeeB95gXhEFOwqgP7Nb4VgFb2/dF+chm+EC2GxVTFuEJKnBpHc44O72r99IvKaX1+68mRKUCdoEtesAFBckmSvD+w+hQGnscjJNH7qxZl6HPq0FlwdB04t89/1O/w1cDnyilFU="
-group_id = "YOUR_GROUP_ID"
+channel_access_token = "直接書かない"
+group_id = "直接書かない"
 
 # ボットの設定
-bot = discode.Bot(command_prefix='!', token=os.environ['MTE1MDc5ODE4NTk2MzQ1ODYxMQ.GTODdV.WplMXxuIeWh5__ppwK77cR8CWlo0Eqf1W0PpVQ'])
+bot = discode.Bot(command_prefix='!', token=os.environ['直接書かない'])
 
 # LINEグループにメッセージを送信する関数
 async def send_to_line_group(message_content):
